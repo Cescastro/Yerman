@@ -11,6 +11,7 @@ function logginSubmit(e) {
   var isRoot = validarLoggin(userIn,passIn);
   if (isRoot) {
     console.log("Is Root User");
+    location.href="../html/dashboard.html";
   }else {
     console.log("Is Not Root User");
   }
