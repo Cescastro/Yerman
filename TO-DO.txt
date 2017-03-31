@@ -1,0 +1,56 @@
+Requisitos
+
+
+* Solo debe usar javascript nativo
+* Debe utilizar bootstrap o foundation para estilos css
+* El sitio debe ser en su mayoria responsive
+
+
+//1. Debe crear un login que valide usuario "root" y clave "2017*",
+   tiene utilizar una imagen para representar un logo de cualquier
+   organizacion.
+
+   (Cuando el sistema realice la validación debe redireccionar a un panel)
+//2. Debe crear un panel con 8 botones que lo llevaran a otras paginas.
+   (Deben ser botones de 200*200 pixeles, la cuadricula debe estar centrada
+   y debe tener estilos.
+
+	(todas las paginas deben tener boton regresar)
+
+	- El primer boton, tiene una calculadora con las operaciones + , - , * y /
+	  (debe validar la division por cero y hacerselo saber al usuario)
+	  (debe utilizar una lista desplegable "<select>" para intercalar operaciones)
+
+    - El segundo boton, tiene un creador de planas, es decir, consta de una caja de texto
+      y una caja de numero  y un boton, el usuario digita "hola" en la caja de texto,
+      5 en la caja de numero y presiona el boton, y el sistema debe generar una plana de hola
+      Texto |__hola__|  Numero |5| |_repetir|
+
+    - El tercer boton, tiene un formulario de registro con nombre, apellido y edad,
+      cuando presionan aceptar debe validar que ningun campo este vacio y adicionalmente
+      debe generar un texto que diga:
+      (Debe capitalizar le nombre y  el apellido)
+      (Debe agregar la fecha en el instante que se reciban los datos)
+	  (ej: El usuario luis rodriguez fue registrado exitosamente el dia
+	       25 de febrero en el año 2017)
+
+	- El cuarto boton, tiene un juego que con un boton izquierda y derecha para mover
+	  un personaje
+	  (el personaje hacia la izquierda debe ser uno y hacia la derecha debe ser el mismo
+	  en direccion contraria)
+	  (el personaje debe tener un camino para recorrer y no puede exceder los limites)
+
+	- El quinto boton, tiene una caja de texto que recibe un link de youtube y lo reproduce
+	  (ej: https://www.youtube.com/watch?v=jOzmPOAr0FI) y debe poner el video de nach dentro
+	  de la pagina actual, tal cual fuera el mismo youtube.
+
+	- El sexto boton, es un teclado virtual, debe simular los numerso del  0 al 9 con botones
+      y agregarlos a una caja de texto, tambien tiene que tener limpiar y debe validar la clave
+      9999.
+
+    - El septimo boton, lleva a una tabla que tiene las notas deu nos estudiantes,
+      | nombre | nota1 | nota2 | nota3 | final | definitiva | debe alternar de color
+      entre filas pares e impares (pueden ser para el par uno y el impar otro)
+      Los encabezados deben ir negros y la letra banca, y debe estar centrada
+
+	- El octavo boton, cierra sesion y devuelve al login.
