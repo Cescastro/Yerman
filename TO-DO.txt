@@ -2,8 +2,10 @@ Requisitos
 
 
 * Solo debe usar javascript nativo
-* Debe utilizar bootstrap o foundation para estilos css
+* Debe utilizar bootstrap o foundation para estilos css, materialize by google (usa sass)
 * El sitio debe ser en su mayoria responsive
+
+*Local Storage(son como cookies)
 
 
 //1. Debe crear un login que valide usuario "root" y clave "2017*",
